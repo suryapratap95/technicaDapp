@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+    <h2 class="welcome-title"  >Voting App </h2>
+  <form [formGroup]="VotingForm" (ngSubmit)="onSubmit()">
+    <label for="fname"> Name</label>
+    <input type="text" id="fname" name="firstname" formControlName="voter" (change)='GetData($event.target.value)' placeholder="Your name..">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div *ngIf=showTable>
+   <h2>Please Vote</h2>
+                <button type="submit" value= "Submit" class="button"(click)="countBiden(i)">Joy </button>
+                <button type="submit" class="button"(click)="countTrumph(i)">Trumph</button>
+          
+ 
+</div>
+</body>
+
+
+
