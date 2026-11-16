@@ -1,4 +1,4 @@
-# Trainer notes — Day 1 (do not share with participants)
+# Trainer notes — Day 1 
 
 ## Planted issues and answers
 
